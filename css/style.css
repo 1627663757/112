@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  font-size: .12rem;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  display: flex;
+  height: .4rem;
+  color: #fff;
+  background: #000;
+  line-height: .4rem;
+  position: relative;
+  justify-content: space-around; }
+
+section {
+  flex: 1;
+  padding: .2rem; }
+  section dl {
+    background: #ccc;
+    border-radius: 10px;
+    margin-bottom: .2rem; }
+    section dl dt {
+      font-size: 20px;
+      padding-left: .1rem; }
+    section dl dd {
+      padding-top: .1rem;
+      padding-bottom: .1rem;
+      padding-left: .1rem; }
+
+/*# sourceMappingURL=style.css.map */
